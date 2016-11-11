@@ -7,7 +7,7 @@ import javax.swing.ImageIcon;
  */
 public class Frame extends JFrame {
     public static String name = "Bubble Hero \"DFY\" ";
-    public static Dimension size = new Dimension(750, 600);
+    public static Dimension size = new Dimension(750, 460);
 
 
     public Frame() {

@@ -19,7 +19,7 @@ public class Panel extends JPanel implements Runnable {
 
     public Panel() {
         start();
-        player = new Player(60,450);
+        player = new Player(60,325);
         addKeyListener(new KeyInput(player));
         setFocusable(isRunning);
     }
@@ -59,7 +59,7 @@ public class Panel extends JPanel implements Runnable {
 
 
             try {
-               Thread.sleep(10);
+               Thread.sleep(30);
             }catch (Exception e){
             }
         }
